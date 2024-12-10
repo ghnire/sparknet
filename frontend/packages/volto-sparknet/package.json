@@ -26,7 +26,24 @@
     "release-major-alpha": "release-it major --preRelease=alpha",
     "release-alpha": "release-it --preRelease=alpha"
   },
-  "dependencies": {},
+  "addons": [
+    "@eeacms/volto-accordion-block",
+    "@eeacms/volto-anchors",
+    "@eeacms/volto-columns-block",
+    "@eeacms/volto-corsproxy",
+    "@eeacms/volto-tabs-block",
+    "@kitconcept/volto-slider-block",
+    "@kitconcept/volto-light-theme"
+  ],
+  "dependencies": {
+    "@eeacms/volto-accordion-block": "^11.0.3",
+    "@eeacms/volto-anchors": "^1.0.0",
+    "@eeacms/volto-columns-block": "^8.0.1",
+    "@eeacms/volto-corsproxy": "^4.0.0",
+    "@eeacms/volto-tabs-block": "^9.0.0",
+    "@kitconcept/volto-slider-block": "^6.3.1",
+    "@kitconcept/volto-light-theme": "^5.0.2"
+  },
   "peerDependencies": {
     "react": "18.2.0",
     "react-dom": "18.2.0"
